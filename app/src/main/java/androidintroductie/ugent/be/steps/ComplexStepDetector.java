@@ -2,10 +2,10 @@ package androidintroductie.ugent.be.steps;
 
 public class ComplexStepDetector implements StepDetector {
 
-    private int steps = 95;
+    private int steps = 0;
     private int run = 0;
-    private int today = 95;
-    private int total = 1234;
+    private int today = 0;
+    private int total = 0;
 
     private DataLogger logger = null;
 
